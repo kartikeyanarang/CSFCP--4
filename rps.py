@@ -21,5 +21,5 @@ while True:
     else:
         print("You lose!")
 
-    if input("Play again? (y/n): ").lower() != "y":
+    if input("Play again? (yes/no): ").lower() != "y":
         break
