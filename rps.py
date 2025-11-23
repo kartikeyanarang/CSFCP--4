@@ -2,7 +2,7 @@
 import random
 
 choices = ["rock", "paper", "scissors"]
-
+#user input 
 while True:
     user = input("Choose rock, paper, or scissors: ").lower()
     if user not in choices:
@@ -11,7 +11,7 @@ while True:
 
     comp = random.choice(choices)
     print("Computer chose:", comp)
-
+#game logic 
     if user == comp:
         print("It's a tie!")
     elif (user == "rock" and comp == "scissors") or \
