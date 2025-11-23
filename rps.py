@@ -1,3 +1,4 @@
+#importing random module
 import random
 
 choices = ["rock", "paper", "scissors"]
